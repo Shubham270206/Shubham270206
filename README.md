@@ -29,7 +29,7 @@
 
 | Project | What it does | Stack |
 |--------|-------------|-------|
-| [AML Platform](https://github.com/Shubham270206/aml-platform) | Transaction monitoring with GNNs — improved fraud recall from 6% to 73% | Python, Kafka, React, GNN |
+| [AML Platform](https://github.com/Shubham270206/aml-platform) | Transaction monitoring with GNNs — with recall of 99.88% | Python, Kafka, React, GNN |
 | [ASL Sign Language Recognition](https://github.com/Shubham270206/asl-sign-language-recognition) | Real-time hand gesture recognition for ASL alphabet | MediaPipe, OpenCV, Python |
 | [Binance Futures Bot](https://github.com/Shubham270206/binance-futures-bot) | Automated crypto trading bot with HMAC-SHA256 auth | Python, Binance API |
 | [RAG Chatbot](https://github.com/Shubham270206/rag-chatbot) | PDF chatbot using retrieval-augmented generation | LangChain, FAISS, Groq, Streamlit |
