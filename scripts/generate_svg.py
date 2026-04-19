@@ -3,10 +3,13 @@ import math
 
 USERNAME = "Shubham270206"
 
-url = f"https://github-contributions-api.jogruber.de/v4/{USERNAME}"
-data = requests.get(url).json()
+url = f"https://github-contributions-api.jogruber.de/v4/{USERNAME}?y=last"
+response = requests.get(url)
+data = response.json()
 
-weeks = data["contributions"]
+# handle both API response formats
+contributions = data.get("contributions", data.get("years", []))
+weeks = contributions if isinstance(contributions[0], list) else contributions
 
 svg_blocks = ""
 svg_particles = ""
