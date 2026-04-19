@@ -1,14 +1,22 @@
-<h1 align="center">Hey, I'm Shubham 👋</h1>
+<h1 align="center">Shubham Sinha</h1>
 
 <p align="center">
-  I build things at the intersection of ML and finance —<br>
-  from fraud detection systems to trading bots.<br>
-  Currently exploring computer vision and deep learning.
+  Building real-world ML systems — from fraud detection to trading automation.<br>
+  Focused on high-impact, production-grade AI.<br>
+  Currently exploring computer vision, deep learning, and scalable ML systems.
 </p>
 
 ---
 
-### 🛠️ Tech I work with
+### ⚡ What I do
+- 🧠 Machine Learning (focus: applied + production)
+- 💰 FinTech systems (fraud detection, trading bots)
+- ⚙️ Real-time systems (Kafka, streaming pipelines)
+- 📊 Data → Decisions → Systems
+
+---
+
+### 🛠️ Tech Stack
 
 <p align="left">
   <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"/>
@@ -25,17 +33,15 @@
 
 ---
 
-### 🚀 Things I've built
+### 🚀 Featured Projects
 
-| Project | What it does | Stack |
-|--------|-------------|-------|
-| [AML Platform](https://github.com/Shubham270206/aml-platform) | Transaction monitoring with GNNs — with recall of 99.88% | Python, Kafka, React, GNN |
-| [ASL Sign Language Recognition](https://github.com/Shubham270206/asl-sign-language-recognition) | Real-time hand gesture recognition for ASL alphabet | MediaPipe, OpenCV, Python |
-| [Binance Futures Bot](https://github.com/Shubham270206/binance-futures-bot) | Automated crypto trading bot with HMAC-SHA256 auth | Python, Binance API |
-| [RAG Chatbot](https://github.com/Shubham270206/rag-chatbot) | PDF chatbot using retrieval-augmented generation | LangChain, FAISS, Groq, Streamlit |
-| [GitHub Stats CLI](https://github.com/Shubham270206/github-stats-cli) | Terminal tool to view GitHub profile stats and streak | Python, rich |
-| [System Health Monitor](https://github.com/Shubham270206/system-health-monitor) | Live CPU, RAM, disk and network dashboard in terminal | Python, psutil, rich |
-| [PitWall](https://github.com/Shubham270206/PitWall) | F1 strategy analyser | Python |
+| Project | What it does | Impact |
+|--------|-------------|--------|
+| **[AML Platform](https://github.com/Shubham270206/aml-platform)** | Real-time transaction monitoring with ML + GNNs | 🚀 99.88% recall, explainable fraud detection |
+| **[ASL Recognition](https://github.com/Shubham270206/asl-sign-language-recognition)** | Real-time sign language detection | 🤟 CV + real-time inference |
+| **[Binance Futures Bot](https://github.com/Shubham270206/binance-futures-bot)** | Automated crypto trading system | 💰 API + strategy automation |
+| **[RAG Chatbot](https://github.com/Shubham270206/rag-chatbot)** | Chat with PDFs using LLMs | 🧠 Retrieval + LLM pipeline |
+| **[System Monitor](https://github.com/Shubham270206/system-health-monitor)** | Terminal system dashboard | ⚙️ Real-time metrics |
 
 ---
 
@@ -52,10 +58,16 @@
 
 ---
 
-### 📬 Find me
+### 📬 Connect
 
 <p align="left">
   <a href="https://linkedin.com/in/shubham-sinha-b42914395">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/>
   </a>
+</p>
+
+---
+
+<p align="center">
+  <i>Turning data into decisions — and decisions into systems.</i>
 </p>
