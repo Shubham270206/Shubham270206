@@ -1,0 +1,39 @@
+name: ⛏️ Minecraft Commit Miner
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # runs every day at midnight UTC
+  workflow_dispatch:        # allows manual trigger from GitHub UI
+
+jobs:
+  generate-animation:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write       # needed to push the updated SVG
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Create assets directory
+        run: mkdir -p assets
+
+      - name: Generate SVG animation
+        run: python scripts/generate_svg.py
+
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add assets/minecraft-commits.svg
+          git diff --staged --quiet || git commit -m "⛏️ update: mine fresh commits [$(date +'%Y-%m-%d')]"
+          git push
