@@ -7,12 +7,6 @@
 
 ---
 
-<p align="center">
-  <img src="assets/minecraft-commits.svg" alt="Steve mining my GitHub commits" width="100%"/>
-</p>
-
----
-
 ### ⚡ What I do
 - 🧠 Machine Learning (focus: applied + production)
 - 💰 FinTech systems (fraud detection, trading bots)
@@ -45,6 +39,10 @@
 | **[Binance Futures Bot](https://github.com/Shubham270206/binance-futures-bot)** | Automated crypto trading system | 💰 API + strategy automation |
 | **[RAG Chatbot](https://github.com/Shubham270206/rag-chatbot)** | Chat with PDFs using LLMs | 🧠 Retrieval + LLM pipeline |
 | **[System Monitor](https://github.com/Shubham270206/system-health-monitor)** | Terminal system dashboard | ⚙️ Real-time metrics |
+
+<p align="center">
+  <img src="assets/minecraft-commits.svg" alt="Steve mining my GitHub commits" width="100%"/>
+</p>
 
 ---
 
