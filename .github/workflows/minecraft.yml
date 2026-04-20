@@ -2,10 +2,10 @@ name: Generate Minecraft Commits SVG
 
 on:
   schedule:
-    - cron: "0 0 * * *"   # runs daily at midnight UTC
-  workflow_dispatch:        # allow manual trigger from Actions tab
+    - cron: "0 0 * * *"
+  workflow_dispatch:
   push:
-    branches: [main]
+    branches: [master]
     paths:
       - "scripts/generate_svg.py"
 
@@ -14,7 +14,7 @@ jobs:
     runs-on: ubuntu-latest
 
     permissions:
-      contents: write       # needed to push the SVG back to the repo
+      contents: write
 
     steps:
       - name: Checkout repo
