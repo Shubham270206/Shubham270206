@@ -432,6 +432,7 @@
   <rect x="654" y="16" width="10" height="10" fill="#56e368" rx="1"/>
   <rect x="654" y="28" width="10" height="10" fill="#39d353" rx="1"/>
   <rect x="654" y="40" width="10" height="10" fill="#2ea043" rx="1"/>
+  <rect x="654" y="52" width="10" height="10" fill="#1a1f2e" rx="1"/>
 
   <rect x="510" y="64" width="10" height="10" fill="#2ea043" rx="1">
     <animate attributeName="opacity" values="1;1;0;0;1;1" keyTimes="0.00000;0.14132;0.14132;0.98004;0.98005;1.00000" dur="58.5000s" repeatCount="indefinite"/>
